@@ -4,4 +4,30 @@ body {
 
 #title {
     color: rgb(221, 12, 12);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#input-area {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#waiting {
+    float: left;
+}
+
+#have-been {
+    float: right;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
