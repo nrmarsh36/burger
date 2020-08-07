@@ -1,9 +1,9 @@
 $(function() {
-    $(".devoured").on("click", function(event) {
-      var id = $(this).data("id");
-      var newlyDevoured = $(this).data("newlydevoured");
+    $(".change-status").on("click", function(event) {
+      const id = $(this).data("id");
+      const newlyDevoured = $(this).data("newlydevoured");
   
-      var newStatus = {
+      const newStatus = {
         devoured: newlyDevoured
       };
   
@@ -21,9 +21,9 @@ $(function() {
     $(".create-form").on("submit", function(event) {
       event.preventDefault();
   
-      var newBurger = {
-        name: $("#ca").val().trim(),
-        status: $("[name=devoured]:checked").val().trim()
+      const newBurger = {
+        burger_name: $("#ca").val().trim(), 
+        devoured: $("[burger_name=devoured]:checked").val().trim()
       };
   
       $.ajax("/api/burgers", {
