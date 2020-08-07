@@ -3,16 +3,15 @@ const burger = require("../models/burger.js");
 
 const router = express.Router();
 
-router.get() {
+// router.get() {
+// }
 
-}
+// router.post() {
 
-router.post() {
+// }
 
-}
+// router.put() {
 
-router.put() {
-
-}
+// }
 
 module.exports = router;

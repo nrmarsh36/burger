@@ -1,5 +1,5 @@
 {
-  "name": "burger-logger",
+  "name": "burger",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -7,8 +7,16 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nrmarsh36/burger.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nrmarsh36/burger/issues"
+  },
+  "homepage": "https://github.com/nrmarsh36/burger#readme",
   "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^5.1.0",

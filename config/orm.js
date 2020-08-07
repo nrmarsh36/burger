@@ -1,13 +1,13 @@
 var connection = require("../config/connection.js");
 
-const orm = {
-    // selectAll()
+// const orm = {
+//     // selectAll()
 
-    // insertOne()
+//     // insertOne()
     
-    // updateOne()
-}
+//     // updateOne()
+// }
 
 
 
-module.exports = orm;
+// module.exports = orm;
