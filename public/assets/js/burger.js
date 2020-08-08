@@ -1,10 +1,10 @@
 $(function() {
     $(".change-status").on("click", function(event) {
       const id = $(this).data("id");
-      const newlyDevoured = $(this).data("newlydevoured");
+      const newDevoured = $(this).data("newdevoured");
   
       const newStatus = {
-        devoured: newlyDevoured
+        devoured: newDevoured
       };
   
       $.ajax("/api/burgers/" + id, {
@@ -12,7 +12,7 @@ $(function() {
         data: newStatus
       }).then(
         function() {
-          console.log("changed status to", newlyDevoured);
+          console.log("changed status to", newDevoured);
           location.reload();
         }
       );

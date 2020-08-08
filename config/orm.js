@@ -21,6 +21,7 @@ function objToSql(ob) {
         arr.push(key + "=" + value);
       }
     }
+    console.log(arr.toString())
       return arr.toString();
 };
 
